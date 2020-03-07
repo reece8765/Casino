@@ -274,7 +274,7 @@ public class GUI extends javax.swing.JFrame {
     }//GEN-LAST:event_btnRTCPlayActionPerformed
 
     private void btnStarBlockActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnStarBlockActionPerformed
-        
+        Runtime.getRuntime().exec("/addon/StarBlock.jar " name, password, id, balance, active, phone, address)
     }//GEN-LAST:event_btnStarBlockActionPerformed
 
     private void mnuServerActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mnuServerActionPerformed
